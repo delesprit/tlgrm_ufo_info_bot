@@ -7,7 +7,6 @@
 //usdt
 //rub
 
-echo "Test page<br><br><br><br><br>";
 	
 	
 function graviex_price($ticker)
@@ -148,18 +147,7 @@ $price_occe_uah_usd = number_format($price_occe_uah_usd,6,'.',',');
 
 $volume = $volume_occe + $volume_graviex;
 
-echo "цена = ".sprintf('%f', $price_graviex_btc_usd);
-echo "<br>";
-echo "цена2 = ".$price_graviex_btc_usd ;
-echo "<br>";
-echo "цена3 = ".number_format($price_graviex_btc_usd,6,'.',',');
-echo "<br>";
 
-echo "цена = ".(float)$price_graviex_btc_usd ;
-echo "<br>";
-//settype($price_graviex_btc_usd, "double");
-echo "цена = ".$price_graviex_btc_usd ;
-echo "<br>";
 
 
 $s=0;
